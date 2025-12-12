@@ -21,7 +21,7 @@ export default function UserDetails() {
 
   // pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const usersPerPage = 20;
+  const usersPerPage = 10;
 
   const [totalUsers, setTotalUsers] = useState(0);
 
